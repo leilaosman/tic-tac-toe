@@ -62,7 +62,7 @@ body {
 
 .jumbotron {
  background-image: url("images/ttt_image.jpg");
- padding:2em inherit;
+ padding:4em inherit;
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
