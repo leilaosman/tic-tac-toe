@@ -60,7 +60,9 @@ body {
   margin-top: 15px;
 }
 
-
+.jumbotron {
+ background-image: url("images/ttt_image.jpg");
+}
 
 
 
