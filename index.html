@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Tic-Tac-Toe</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-
-
+    <title>Tic-Tac-Toe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
 </head>
-  
+
 <body>
 
-<div class="jumbotron text-center">
-</div>
-  
-<div class="container">    
-    <div align = "center">
+    <div id="padding">
 
-<button type="button" id = "button1" onclick="onClick(button1)">Click Me!</button>
- 
- <button type="button" id = "button2"onclick="onClick(button2)">Click Me!</button> 
-  
-  <button type="button" id = "button3" onclick="onClick(button3)">Click Me!</button> 
-  
-  <br>
-  
-  <button type="button" id = "button4"onclick="onClick(button4)">Click Me!</button> 
+        <h1>Tic-Tac-Toe</h1>
 
-    <button type="button" id = "button5" onclick="onClick(button5)">Click Me!</button> 
-  
-  <button type="button" id = "button6" onclick="onClick(button6)">Click Me!</button> 
-  
-  <br>
-    <button type="button" id = "button7" onclick="onClick(button7)">Click Me!</button> 
-  
-    <button type="button" id = "button8" onclick="onClick(button8)">Click Me!</button> 
-  
-    <button type="button" id = "button9" onclick="onClick(button9)">Click Me!</button> 
-  </div>
-  </div>
+    </div>
+
+    <div class="container">
+
+        <div class="jumbotron text-center">
+        </div>
+
+        <p>Choose your letter and press submit to play!</p><br>
+
+
+
+        <div id="buttons">
+            <button type="button" class="input enabled" id="button1" onclick="onClick(button1)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button2" onclick="onClick(button2)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button3" onclick="onClick(button3)"><span><br></span></button>
+
+            <br>
+
+            <button type="button" class="input enabled" id="button4" onclick="onClick(button4)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button5" onclick="onClick(button5)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button6" onclick="onClick(button6)"><span><br></span></button>
+
+
+            <button type="button" class="input enabled" id="button7" onclick="onClick(button7)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button8" onclick="onClick(button8)"><span><br></span></button>
+
+            <button type="button" class="input enabled" id="button9" onclick="onClick(button9)"><span><br></span></button>
+        </div>
+
+
+
+        <div id="myform">
+            <form>
+                <label id="label1">Player X:</label>
+                <input type="text" id="fname1"> <br>
+
+                <label id="label2">Player O:</label>
+                <input type="text" id="fname2"> <br>
+
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
+        </div>
 
 </body>
+
 </html>
-
-
-
-
-
-
-
-
