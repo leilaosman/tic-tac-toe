@@ -1,84 +1,142 @@
 body {
-  background-color: #BFE5D9;
-  
+    background-color: #fff9eb;
 }
 
 #button1 {
-  height: 100px;
-  width: 100px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
-
 
 #button2 {
-  height: 100px;
-  width: 100px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
+
 #button3 {
-  height: 100px;
-  width: 100px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button4 {
-  height: 100px;
-  width: 100px;
-  margin-top: 15px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button5 {
-  height: 100px;
-  width: 100px;
-  margin-top: 15px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button6 {
-  height: 100px;
-  width: 100px;
-  margin-top: 15px;
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button7 {
-  height: 100px;
-  width: 100px;
-  margin-top: 15px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button8 {
-  height: 100px;
-  width: 100px;
-  
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 #button9 {
-  height: 100px;
-  width: 100px;
-  margin-top: 15px;
+    background-color: #9b6f1e;
+    color: white;
+    border: dotted;
 }
 
 .jumbotron {
- background-image: url("images/ttt_img.jpg");
-      height: 400px;
+    background-image: url("images/ttt_img.jpg");
+    height: 25em;
+    border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin-top: 4em;
 }
 
+#padding {
+    padding-top: 1em;
+    background-color: #9b6f1e;
+    width: 100%;
+}
 
+h1 {
+    font-family: 'Notable', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 6em;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.input {
+    font-size: 6em;
+    float: left;
+    width: calc(33.33333333333333% - 2px);
+    height: calc(33.33333333333333% - 2px);
+    background: #505050;
+    display: table;
+}
 
+#buttons {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 30em;
+    width: 30em;
+    position: relative;
+    font-weight: bold;
+}
 
+.input span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
 
+#label1 {
+    margin-top: 3em;
+}
 
+#label2 {
+    margin-top: 15px;
+}
 
+#submit {
+    margin-top: 2em;
+}
 
+#myform {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
 
+p {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2em;
+}
 
-
-
-
-
+#reset_button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2em;
+}
